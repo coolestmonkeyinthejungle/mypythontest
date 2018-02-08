@@ -1,5 +1,5 @@
 a=[]
-for i in range(int(input("Введите размер массива: "))):
+for i in range(int(input("Введите размер массиffа: "))):
     a.append(int(input("Введите значения элемента a: ")))
 for x in range(len(a)):
     for y in range (len(a)-x-1):
