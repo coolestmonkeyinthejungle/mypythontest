@@ -11,12 +11,11 @@ def pack(appname, methname, message):
         ipaddr += str(random.randrange(256)) + '.'
         n += 1
     ipaddr = ipaddr[:len(ipaddr) - 2]
-    hour = random.randrange(24)
-    hour = '0' + str(hour) if hour < 10 else str(hour)
-    day = str(random.randrange(28) + 1)
-    minute = str(random.randrange(60))
-    second = str(random.randrange(60))
-    msecond = str(random.randrange(1000))
+    hour = str("%02d"%(random.randrange(24)))
+    day = str("%02d"%(random.randrange(28) + 1))
+    minute = str("%02d"%(random.randrange(60)))
+    second = str("%02d"%(random.randrange(60)))
+    msecond = str("%03d"%(random.randrange(1000)))
     rappname = appname[random.randrange(len(appname))]
     rmethname = methname[random.randrange(len(methname))]
     rmessage = message[random.randrange(len(message))]
