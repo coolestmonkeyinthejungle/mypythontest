@@ -26,6 +26,6 @@ def pack(appname, methname, message):
             'Stream number' : strnumber, 'Request number' : reqnumber, 'Execution time' : exectime}
 
 appname = ['Google Chrome', 'Mozilla Firefox', 'Opera', 'Internet Explorer', 'Safari']
-methname = ['try hard', 'die hard', 'go ahead', 'born to cry', "let's go", "what doesn't kill you", 'blahblahblah', 'purple cucumber']
+methname = ['try hard', 'die hard', 'go ahead', 'born to cry', "let's go", "what doesn't kill you", 'blahbaffff', 'purple cucumber']
 message = ['gimme money', 'go to outer space', 'slice you nice', 'rabbit hole', 'unicorns and magic', 'look at my horse',
            'cut my life into pieces', "i'm lovin' it", 'so good', 'collective unconsciousness', 'piglet', 'well done']
